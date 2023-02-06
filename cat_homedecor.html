@@ -332,56 +332,7 @@
     <script src="assets/js/templatemo.js"></script>
     <script src="assets/js/custom.js"></script>
     <!-- End Script -->
-<!-- 
-    <script>
-        let msg = new SpeechSynthesisUtterance();
-        let voices = speechSynthesis.getVoices();
-        msg.voice = voices[0];
-        let tags = document.querySelectorAll('p,h1,b,br,span,h2,h3,h5'); // add more tags for you project
-        tags.forEach((tag) => {
-            tag.addEventListener('mouseover', (e) => {
 
-                msg.text = e.target.innerText;
-                tag.style.backgroundColor = "grey";
-                i=1;
-                while(i==1){
-                    speechSynthesis.speak(msg);
-                    i+=1;
-                };
-                
-
-                let interval = setInterval(() => {
-                    if (!speechSynthesis.speaking) {
-                        tag.style.removeProperty('background-color');
-                        clearInterval(interval);
-                    }
-                }, 100);
-
-            });
-        });
-
-        function speaking(speech, delayer) {
-            let sleep = (ms) => {
-                return new Promise((resolve) => setTimeout(resolve, ms));
-            };
-
-            console.log("Speaking");
-
-            if (!voices.speaking) {
-                tts.text = speech;
-                voices.speak(tts);
-                sleep(delayer);
-                clearTimeout(timerOut);
-                return;
-
-                if (voices.speaking) {
-                    voices.cancel();
-                    return;
-                }
-            }
-            return;
-        }
-    </script>   -->
 </body>
 
 </html>
