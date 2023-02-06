@@ -13,3 +13,4 @@ You can refer above link to know the projects categories.
 
 category : men normal footwear
 
+Survey - Survey form with all input types 
