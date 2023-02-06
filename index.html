@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -10,6 +11,7 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        
       }
 
       body {
@@ -78,7 +80,7 @@
 
       .btn {
         display: inline-block;
-        background: #ff523b;
+        background: #ad9ceb;
         color: #ffffff;
         padding: 8px 30px;
         margin: 30px 0;
@@ -91,7 +93,9 @@
       }
 
       .header {
-        background: radial-gradient(#fff, #ffd6d6);
+        background-image: url("wow.jpeg");
+        background-repeat:no-repeat;
+        /* background: radial-gradient(#fff, #b6ed97); */
       }
 
       .header .row {
@@ -461,6 +465,7 @@
         padding: 5px;
         color: #ffffff;
         background: #ff523b;
+        
         font-weight: normal;
       }
       td {
@@ -505,7 +510,7 @@
       /* account page */
       .account-page {
         padding: 50px 0;
-        background: radial-gradient(#fff, #ffd6d6);
+        background: radial-gradient(#fff, #ad9ceb);
       }
 
       .form-container {
@@ -612,45 +617,69 @@
     </style>
   </head>
   <body>
-    <div class="container">
-      <div class="navbar">
-        <div class="logo">
-          <a href="index.html"
+    <div class="header" >
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <a href="index.html"
+              ><img
+                src="footbros.png"
+                alt="RedStore"
+                width="150px"
+            /></a>
+          </div>
+          <nav>
+            <ul id="MenuItems">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="product.html">Products</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+          <a href="cart.html"
             ><img
-              src="footbros.png"
-              alt="RedStore"
-              width="150px"
+              src="sneakers.png"
+              alt=""
+              width="30px"
+              height="30px"
+              
           /></a>
         </div>
-        <nav>
-          <ul id="MenuItems">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="product.html">Products</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-            <!-- <li><a href="account.html">Account</a></li> -->
-          </ul>
-        </nav>
-        <a href="cart.html"
-          ><img
-            src="sneakers.png"
-            alt=""
-            width="30px"
-            height="30px"
-        /></a>
-      
+        <!-- <div class="row"> -->
+          <div class="col-2">
+            <h1 style="white-space: nowrap;
+            overflow: hidden;
+            text-overflow: clip;">
+                Best Shoes, For the Best Style! <br />
+                Wearable brilliance.
+            </h1>
+            <p>
+                Live life in every move.
+            </p>
+            <a href="#" target="_blank" rel="noopener noreferrer" class="btn"
+              >Explore Now &#8594;</a
+            >
+          </div>
+          <!-- <div class="col-2">
+            <img src="https://i.ibb.co/QpTmdX5/image1.png" alt="" />
+          </div> -->
+        </div>
       </div>
     </div>
 
+
+
+    <!-- Featured products -->
     <div class="small-container">
-      <div class="row row-2">
-        <h2 style="font-family: Times New Roman; padding-left: 27rem; font-size: 40px">PRODUCTS</h2>
-      
-      </div>
+      <h2 class="title">Featured Products</h2>
       <div class="row">
         <div class="col-4">
-          <img src="https://i.ibb.co/47Sk9QL/product-1.jpg" alt="" />
-          <h4>Red Printed T-shirt</h4>
+          <a href="product_details.html"
+            ><img src="https://i.ibb.co/47Sk9QL/product-1.jpg" alt=""
+          /></a>
+          <a href="product_details.html">
+            <h4>Red Printed T-shirt</h4>
+          </a>
           <div class="rating">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -700,61 +729,7 @@
           <p>₹500.00</p>
         </div>
       </div>
-
-      <div class="row">
-        <div class="col-4">
-          <img src="https://i.ibb.co/47Sk9QL/product-1.jpg" alt="" />
-          <h4>Red Printed T-shirt</h4>
-          <div class="rating">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="far fa-star"></i>
-          </div>
-          <p>₹500.00</p>
-        </div>
-
-        <div class="col-4">
-          <img src="https://i.ibb.co/b7ZVzYr/product-2.jpg" alt="" />
-          <h4>Red Printed T-shirt</h4>
-          <div class="rating">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-          </div>
-          <p>₹500.00</p>
-        </div>
-
-        <div class="col-4">
-          <img src="https://i.ibb.co/KsMVr26/product-3.jpg" alt="" />
-          <h4>Red Printed T-shirt</h4>
-          <div class="rating">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
-          </div>
-          <p>₹500.00</p>
-        </div>
-
-        <div class="col-4">
-          <img src="https://i.ibb.co/0cMfpcr/product-4.jpg" alt="" />
-          <h4>Red Printed T-shirt</h4>
-          <div class="rating">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-          </div>
-          <p>₹500.00</p>
-        </div>
-      </div>
-
+      <h2 class="title">Latest Products</h2>
       <div class="row">
         <div class="col-4">
           <img src="https://i.ibb.co/bQ5t8bR/product-5.jpg" alt="" />
@@ -862,16 +837,122 @@
           <p>₹500.00</p>
         </div>
       </div>
-
-      <div class="page-btn">
-        <span>1</span>
-        <span>2</span>
-        <span>3</span>
-        <span>4</span>
-        <span>&#8594;</span>
+    </div>
+    <!-- offer -->
+    <div class="offer">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-2">
+            <img
+              src="https://i.ibb.co/HF5TncZ/exclusive.png"
+              alt=""
+              class="offer-img"
+            />
+          </div>
+          <div class="col-2">
+            <p>Exclusively Available on RedStore</p>
+            <h1>Smart Band 4</h1>
+            <small
+              >The Mi Smart Band 4 features a 39.9% larger (than Mi Band 3)
+              AMOLED color full-touch display with adjustable brightness, so
+              everything is clear as can be.</small
+            >
+            <br />
+            <a href="#" class="btn">Buy Now &#8594;</a>
+          </div>
+        </div>
       </div>
     </div>
 
+    <!-- Testimonial -->
+    <div class="testimonial">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3">
+            <i class="fas fa-quote-left"></i>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis, quae molestias error id est voluptatibus quos amet
+              numquam aspernatur nam cumque ullam? Veritatis eveniet et, maxime
+              eaque soluta quas modi.
+            </p>
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <img src="https://i.ibb.co/zfXD2Tx/user-1.png" alt="" />
+            <h3>Marta W.</h3>
+          </div>
+
+          <div class="col-3">
+            <i class="fas fa-quote-left"></i>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis, quae molestias error id est voluptatibus quos amet
+              numquam aspernatur nam cumque ullam? Veritatis eveniet et, maxime
+              eaque soluta quas modi.
+            </p>
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <img src="https://i.ibb.co/FVyK1KM/user-2.png" alt="" />
+            <h3>Rula P.</h3>
+          </div>
+
+          <div class="col-3">
+            <i class="fas fa-quote-left"></i>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis, quae molestias error id est voluptatibus quos amet
+              numquam aspernatur nam cumque ullam? Veritatis eveniet et, maxime
+              eaque soluta quas modi.
+            </p>
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <img src="https://i.ibb.co/jZ3tQqK/user-3.png" alt="" />
+            <h3>Vika Z.</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- brands -->
+    <div class="brands">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-5">
+            <img src="https://i.ibb.co/Gfwzz1S/logo-godrej.png" alt="" />
+          </div>
+
+          <div class="col-5">
+            <img src="https://i.ibb.co/vjrRZFM/logo-oppo.png" alt="" />
+          </div>
+
+          <div class="col-5">
+            <img src="https://i.ibb.co/3zs234S/logo-coca-cola.png" alt="" />
+          </div>
+
+          <div class="col-5">
+            <img src="https://i.ibb.co/7Wt343W/logo-paypal.png" alt="" />
+          </div>
+
+          <div class="col-5">
+            <img src="https://i.ibb.co/GVSNwJD/logo-philips.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Footer -->
     <div class="footer">
       <div class="container">
