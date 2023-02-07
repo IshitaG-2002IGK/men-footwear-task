@@ -26,6 +26,8 @@ To do:
 
 3) Contact us
 
-4) Products page 
+4) Products page - done
 
-5) Payment page
+5) Payment page - done
+
+6) Survey page
