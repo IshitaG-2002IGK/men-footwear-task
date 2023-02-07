@@ -14,3 +14,18 @@ You can refer above link to know the projects categories.
 category : men normal footwear
 
 Survey - Survey form with all input types 
+
+
+#######
+
+To do:
+
+1) Home page - landing page (shoes hightlighting to be done)
+
+2) About us
+
+3) Contact us
+
+4) Products page 
+
+5) Payment page
