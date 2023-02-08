@@ -78,7 +78,7 @@
 
       .form-group > label {
         margin-bottom: 8px;
-        color: #00337C;
+        color: #00337c;
         display: block;
         font-weight: 500;
       }
@@ -139,7 +139,7 @@
         background-color: #eee;
         transition: all 0.4s;
       }
-/* svg thingie */
+      /* svg thingie */
 
       [type="checkbox"] + label svg {
         position: absolute;
@@ -158,7 +158,7 @@
       }
 
       [type="checkbox"]:checked + label::before {
-        background-color: #00337C;
+        background-color: #00337c;
       }
 
       [type="checkbox"]:checked + label svg polyline {
@@ -179,7 +179,7 @@
         width: 100%;
         display: block;
         height: 40px;
-        background-color: #00337C;
+        background-color: #00337c;
         border: none;
         font-weight: bold;
         font-size: 20px;
@@ -231,7 +231,7 @@
         #number,
         #dropdown,
         textarea {
-          font-size: 15px;
+          font-size: 12px;
         }
         [type="radio"] + label,
         [type="checkbox"] + label > span {
@@ -283,7 +283,6 @@
     </style>
   </head>
   <body>
-  
     <!DOCTYPE html>
     <html lang="en">
       <head>
@@ -299,7 +298,7 @@
       </head>
 
       <body>
-        <main style="width:4300px;">
+        <main style="width: 4300px">
           <header>
             <h1 id="title">Survey Form</h1>
             <p id="description">
@@ -329,18 +328,20 @@
             </div>
 
             <div class="form-group">
-                <label for="number" id="email-label">Phone Number</label>
-                <input
-                  type="number"
-                  name="number"
-                  id="number"
-                  placeholder="Enter your phone number"
-                  required
-                />
-              </div>
+              <label for="number" id="email-label">Phone Number</label>
+              <input
+                type="number"
+                name="number"
+                id="number"
+                placeholder="Enter your phone number"
+                required
+              />
+            </div>
 
             <div class="form-group">
-              <label for="age" id="number-label">How many FootBros product have you bought?</label>
+              <label for="age" id="number-label"
+                >How many FootBros product have you bought?</label
+              >
               <input
                 type="number"
                 name="age"
@@ -352,11 +353,11 @@
             </div>
 
             <div class="form-group">
-              <label for="occupation"
-                >Select your style</label
-              >
+              <label for="occupation">Select your style</label>
               <select name="occupation" id="dropdown">
-                <option selected disabled value>Select yout style approach</option>
+                <option selected disabled value>
+                  Select yout style approach
+                </option>
                 <option value="student">Formals</option>
                 <option value="full-time-job">Retro</option>
                 <option value="part-time-job">Funky</option>
@@ -485,7 +486,7 @@
                     />
                   </svg>
 
-                  <span>Varieties</span>
+                  <span>Variety of choices</span>
                 </label>
               </div>
             </div>
@@ -500,7 +501,9 @@
             </div>
 
             <div class="form-group">
-              <button id="submit" type="submit" style="border-radius: 19px;">Submit</button>
+              <button id="submit" type="submit" style="border-radius: 19px">
+                Submit
+              </button>
             </div>
           </form>
         </main>
